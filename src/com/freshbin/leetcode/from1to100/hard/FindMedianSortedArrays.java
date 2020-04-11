@@ -1,7 +1,5 @@
 package com.freshbin.leetcode.from1to100.hard;
 
-import java.util.Arrays;
-
 /**
  * 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
  * 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
@@ -54,10 +52,12 @@ public class FindMedianSortedArrays {
     }
 
 	public static void main(String[] args) {
-		FindMedianSortedArrays findMedianSortedArrays = new FindMedianSortedArrays();
-		int[] nums1 = {1, 3, 5, 7, 9};
-		int[] nums2 = {2, 4, 6, 7, 8, 9};
-		System.out.println(findMedianSortedArrays.findMedianSortedArrays0(nums1, nums2));
+//		FindMedianSortedArrays findMedianSortedArrays = new FindMedianSortedArrays();
+//		int[] nums1 = {1, 3, 5, 7, 9};
+//		int[] nums2 = {2, 4, 6, 7, 8, 9};
+//		System.out.println(findMedianSortedArrays.findMedianSortedArrays0(nums1, nums2));
+		
+		System.out.println(Math.round(Float.valueOf("2700.00")));
 	}
 	
 	// 官方解法
